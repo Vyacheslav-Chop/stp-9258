@@ -8,11 +8,23 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
+@import url('../fonts/fonts.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
 @import url('./footer.css');
+@import url('./about.css');
+@import url('./cookeis-policy.css');
+@import url('./core-advantages.css');
+@import url('./faq.css');
+@import url('./game-atmosphere.css');
+@import url('./game-worlds.css');
+@import url('./get-started.css');
+@import url('./header-policies.css');
+@import url('./hero.css');
+@import url('./instructions.css');
+@import url('./modal-menu.css');
+@import url('./modal-policies.css');
+@import url('./privacy-policy.css');
+@import url('./reviews.css');
+@import url('./terms-conditions.css');
