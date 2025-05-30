@@ -1,0 +1,94 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.mobile-img-footer-top {
+  background-image: url('/img/footer/decoration_img_footer_mob.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 30px;
+  min-width: 45px;
+}
+
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+  .mobile-img-footer-top {
+    background-image: url('/img/footer/decoration_img_footer_mob@2x.png');
+  }
+}
+
+.mobile-img-footer-bottom {
+  display: none;
+}
+
+.legal-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.copy-text {
+  text-align: center;
+  max-width: 230px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    position: relative;
+    gap: 0;
+  }
+  .mobile-img-footer-top {
+    background-image: url('/img/footer/decoration_img_footer_desc.png');
+    position: absolute;
+    top: -48px;
+    left: 92px;
+    min-width: 100px;
+    min-height: 66px;
+  }
+
+  .logo-link {
+    margin-bottom: 80px;
+  }
+
+  .legal-list {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    padding: 0 58px;
+    width: 100%;
+    margin-bottom: 68px;
+  }
+
+  .mobile-img-footer-bottom {
+    display: block;
+    background-image: url('/img/footer/decoration_img_footer_desc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100px;
+    min-height: 66px;
+    margin-left: auto;
+  }
+
+  .copy-text {
+    max-width: 100%;
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .mobile-img-footer-top {
+    background-image: url('/img/footer/decoration_img_footer_desc@2x.png');
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .mobile-img-footer-bottom {
+    background-image: url('/img/footer/decoration_img_footer_desc@2x.png');
+  }
+}

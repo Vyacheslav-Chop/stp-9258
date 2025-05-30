@@ -1,0 +1,65 @@
+.container-about {
+  position: relative;
+  padding-top: 242px;
+}
+
+.bg-img-about {
+  background-image: url('/img/about/puzzle-mob.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 237px;
+  height: 216px;
+  position: absolute;
+  top: -10px;
+  left: 27px;
+}
+
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+  .bg-img-about {
+    background-image: url('/img/about/puzzle-mob@2x.png');
+  }
+}
+
+.game-description-intro {
+  margin-bottom: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.game-description-details {
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-about {
+    position: relative;
+    padding-top: 242px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+
+  .bg-img-about {
+    background-image: url('/img/about/puzzle_desc.png');
+    width: 387px;
+    height: 352px;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 133px;
+  }
+  .game-description-intro {
+    text-align: left;
+    max-width: 408px;
+  }
+  .game-description-details {
+    text-align: left;
+    max-width: 408px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .bg-img-about {
+    background-image: url('/img/about/puzzle_desc@2x.png');
+  }
+}
