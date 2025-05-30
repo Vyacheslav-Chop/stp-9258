@@ -1,20 +1,2 @@
-/* empty css                      */import{S as a,N as d,P as o,a as p,A as l}from"./assets/vendor-JLaRIylK.js";(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const s of t.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&n(s)}).observe(document,{childList:!0,subtree:!0});function u(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function n(e){if(e.ep)return;e.ep=!0;const t=u(e);fetch(e.href,t)}})();const m=document.querySelector('[data-action="open"]'),f=document.querySelector('[data-action="close"]'),c=document.querySelector("[data-visible]");m.addEventListener("click",r=>{c.dataset.visible="open"});f.addEventListener("click",r=>{c.dataset.visible="close"});const g=[{review:"So satisfying! The twist mechanics are brilliant. I’ve never played anything like it!",username:"Ava N.",rating:5},{review:"Clean design, relaxing sounds, and deceptively tricky puzzles. 10/10!",username:"Tyler M.",rating:4},{review:"The rotating layers make every level feel fresh and challenging.",username:"Mina R.",rating:4},{review:"Perfect puzzle game. Addictive, calm, and clever. I play it on my commute!",username:" Eric D.",rating:4},{review:"Would love more customization themes but the gameplay is fantastic!",username:"Chloe L.",rating:4}],v=r=>Array.from({length:r},()=>`
-      <li>
-        <svg width="20" height="20">
-          <use href="/stp-9258/sprite.svg#icon-star"></use>
-        </svg>
-      </li>
-    `).join("");a.use([d,o,p,l]);const y=document.querySelector(".swiper-wrapper"),w=g.map((r,i)=>`
-      <ul class="swiper-slide">
-        <li class="list-item" data-id="${i}">
-          <p class="review-text">"${r.review}"</p>
-          <div class="reviewer-info">
-            <ul class="reviewer-rating-list">
-              ${v(r.rating)}
-            </ul>
-            <p class="review-name-text">${r.username}</p>
-          </div>
-        </li>
-      </ul>
-    `).join("");y.innerHTML=w;new a(".swiper",{modules:[o,l],slidesPerView:1,spaceBetween:20,pagination:{el:".swiper-pagination",clickable:!0},autoplay:{delay:4e3,disableOnInteraction:!1},breakpoints:{320:{slidesPerView:1},1200:{slidesPerView:3}}});
+/* empty css                      */import{S as i,N as u,P as a,a as p,A as l}from"./assets/vendor-JLaRIylK.js";(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const o of t.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&n(o)}).observe(document,{childList:!0,subtree:!0});function d(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function n(e){if(e.ep)return;e.ep=!0;const t=d(e);fetch(e.href,t)}})();const f=document.querySelector('[data-action="open"]'),m=document.querySelector('[data-action="close"]'),c=document.querySelector("[data-visible]");f.addEventListener("click",s=>{c.dataset.visible="open"});m.addEventListener("click",s=>{c.dataset.visible="close"});i.use([u,a,p,l]);new i(".swiper",{modules:[a,l],slidesPerView:1,spaceBetween:20,pagination:{el:".swiper-pagination",clickable:!0},autoplay:{delay:4e3,disableOnInteraction:!1},breakpoints:{320:{slidesPerView:1},1200:{slidesPerView:3}}});new i(".mySwiper",{effect:"coverflow",grabCursor:!0,centeredSlides:!0,slidesPerView:3,coverflowEffect:{rotate:0,stretch:0,depth:100,modifier:2,slideShadows:!0,scale:1.3},keyboard:{enabled:!0},mousewheel:{thresholdDelta:70},spaceBetween:30,loop:!0,pagination:{el:".swiper-pagination",clickable:!0}});
 //# sourceMappingURL=index.js.map
