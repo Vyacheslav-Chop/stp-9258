@@ -1,0 +1,97 @@
+.instruction-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.instruction-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.instruction-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.number-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 36px;
+  color: #f8f3fa;
+  font-family: var(--font-helpers);
+  border-radius: 8px;
+}
+
+.instruction-list li:nth-child(odd) .number-item {
+  background-color: #3342ae;
+}
+
+.instruction-list li:nth-child(even) .number-item {
+  background-color: #7118a3;
+}
+
+.instruction-bg {
+  width: 59px;
+  height: 40px;
+  background-image: url('/img/instructions/tetris-mob.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(90deg);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .instruction-container {
+    position: relative;
+  }
+
+  .instruction-list {
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0 28px;
+    margin-bottom: 0;
+  }
+
+  .instruction-title {
+    margin-bottom: 48px;
+  }
+
+  .instruction-item {
+    gap: 0;
+  }
+
+  .number-item {
+    margin-right: 106px;
+  }
+
+  .instruction-subtitle {
+    min-width: 183px;
+    margin-right: 75px;
+  }
+
+  .instruction-text {
+    line-height: 1.5;
+  }
+
+  .instruction-bg {
+    position: absolute;
+    width: 56px;
+    height: 83px;
+    right: 92px;
+    top: 24px;
+    transform: rotate(360deg);
+    background-image: url('/img/instructions/tetris-desc.png');
+  }
+}
