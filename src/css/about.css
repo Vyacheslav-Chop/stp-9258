@@ -21,8 +21,13 @@
   }
 }
 
+.about-descsription-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .game-description-intro {
-  margin-bottom: 24px;
   font-weight: 600;
   text-align: center;
 }
@@ -32,20 +37,22 @@
 
 @media screen and (min-width: 1200px) {
   .container-about {
-    position: relative;
-    padding-top: 242px;
-    padding-top: 88px;
-    padding-bottom: 88px;
+    position: static;
+    padding-top: 0;
+    padding-left: 152px;
+    padding-right: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .bg-img-about {
     background-image: url('/img/about/puzzle_desc.png');
     width: 387px;
     height: 352px;
-    position: absolute;
-    top: 0;
+    position: static;
+    top: auto;
     left: auto;
-    right: 133px;
   }
   .game-description-intro {
     text-align: left;
