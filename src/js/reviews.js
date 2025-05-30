@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import spriteUrl from '../img/sprite.svg';
 
 import { reviews } from './data/reviews.js';
 
@@ -11,15 +12,14 @@ const generateStars = count => {
   return Array.from(
     { length: count },
     () => `
-    <li>
-      <svg width="20" height="20">
-        <use href="/img/sprite.svg#icon-star"></use>
-      </svg>
-    </li>
-  `
+      <li>
+        <svg width="20" height="20">
+          <use href="${spriteUrl}#icon-star"></use>
+        </svg>
+      </li>
+    `
   ).join('');
 };
-
 Swiper.use([Navigation, Pagination, Scrollbar, Autoplay]);
 
 const container = document.querySelector('.swiper-wrapper');
