@@ -1,0 +1,21 @@
+.get-started-img {
+  border-radius: 8px;
+  width: 84px;
+  height: 147px;
+}
+.mySwiper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.swiper-slide {
+  transition: transform 0.3s ease;
+  margin-right: 0px;
+}
+
+.swiper-slide-active {
+  transform: scale(1.35);
+  filter: blur(0);
+}
