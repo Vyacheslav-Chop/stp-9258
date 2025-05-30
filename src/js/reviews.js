@@ -13,7 +13,7 @@ const generateStars = count => {
     () => `
       <li>
         <svg width="20" height="20">
-          <use href="/sprite.svg#icon-star"></use>
+          <use href="/stp-9258/sprite.svg#icon-star"></use>
         </svg>
       </li>
     `
