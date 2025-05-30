@@ -13,7 +13,7 @@ const generateStars = count => {
     () => `
     <li>
       <svg width="20" height="20">
-        <use href="../img/sprite.svg#icon-star"></use>
+        <use href="/img/sprite.svg#icon-star"></use>
       </svg>
     </li>
   `
@@ -53,7 +53,7 @@ new Swiper('.swiper', {
     clickable: true,
   },
   autoplay: {
-    delay: 3000,
+    delay: 4000,
     disableOnInteraction: false,
   },
   breakpoints: {
