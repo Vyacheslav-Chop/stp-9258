@@ -1,0 +1,34 @@
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  border: 1px solid #3342ae;
+  border-radius: 12px;
+  padding: 8px 16px;
+  width: 285px;
+  height: 60px;
+  background: rgba(229, 227, 238, 0.84);
+  margin: 0 auto;
+}
+
+.google-play-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.button:hover {
+  background: #c6a3da;
+}
+
+.button-title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #220731;
+}
+
+.button-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  color: #220731;
+}
