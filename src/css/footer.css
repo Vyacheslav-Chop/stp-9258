@@ -39,16 +39,18 @@
 
 @media screen and (min-width: 1200px) {
   .footer-container {
-    position: relative;
     gap: 0;
   }
+
+  .footer.section {
+    padding-top: 0;
+  }
+
   .mobile-img-footer-top {
     background-image: url('/img/footer/decoration_img_footer_desc.png');
-    position: absolute;
-    top: -48px;
-    left: 92px;
     min-width: 100px;
     min-height: 66px;
+    margin-right: auto;
   }
 
   .logo-link {

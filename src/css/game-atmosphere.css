@@ -1,0 +1,72 @@
+.atmosphere-title {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.atmosphere-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.atmosphere-bg {
+  min-height: 216px;
+  min-width: 237px;
+  background-image: url('/img/game-atmosphere/game_atmosphere_img_mob.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+  .atmosphere-bg {
+    background-image: url('/img/game-atmosphere/game_atmosphere_img_mob@2x.png');
+  }
+}
+
+.atmosphere-text-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.atmosphere-text {
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .atmosphere-title {
+    margin-bottom: 48px;
+  }
+  
+  .atmosphere-wrapper {
+    flex-direction: row;
+    padding: 0 45px;
+  }
+
+  .atmosphere-bg {
+    min-height: 352px;
+    min-width: 387px;
+    background-image: url('/img/game-atmosphere/game_atmosphere_img_desc.png');
+  }
+
+  .atmosphere-text-wrapper {
+    gap: 24px;
+  }
+
+  .atmosphere-text {
+    text-align: left;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .atmosphere-bg {
+    background-image: url('/img/game-atmosphere/game_atmosphere_img_desc@2x.png');
+  }
+}
