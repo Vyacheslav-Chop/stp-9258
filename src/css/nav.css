@@ -1,0 +1,12 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
