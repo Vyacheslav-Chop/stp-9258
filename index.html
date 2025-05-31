@@ -27,63 +27,100 @@
     <script type="module" crossorigin src="/stp-9258/index.js"></script>
     <link rel="modulepreload" crossorigin href="/stp-9258/assets/vendor-JLaRIylK.js">
     <link rel="stylesheet" crossorigin href="/stp-9258/assets/vendor-BmfOlefE.css">
-    <link rel="stylesheet" crossorigin href="/stp-9258/assets/styles-CidBdAjp.css">
+    <link rel="stylesheet" crossorigin href="/stp-9258/assets/styles-C4rO8M-v.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
-    <div class="wrapper">
-      <nav class="nav">
-        <a class="nav-logo" href="./index.html" aria-label="Site logo">
-          <svg class="nav-logo-icon" width="100" height="30">
-            <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#logo"></use>
-          </svg>
-        </a>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">Open menu</button>
-        <div class="burger-menu" data-visible="close">
-          <ul>
-            <li><a href="#">link-1</a></li>
-            <li><a href="#">link-2</a></li>
-            <li><a href="#">link-3</a></li>
-            <li><a href="#">link-4</a></li>
-          </ul>
-          <button type="button" class="btn-close" data-action="close">close</button>
-        </div>
-      </div>
-    </div>
+  <div class="container header-container">
+    <nav class="nav">
+      <a href="./index.html" class="link-logo">
+        <img
+          class="logo-img"
+          src="/stp-9258/assets/logo_original-5ARzLE3Y.jpg"
+          alt="Logo"
+          width="40"
+          height="40"
+          srcset="/stp-9258/assets/logo_original-5ARzLE3Y.jpg 1x, /stp-9258/assets/logo_original@2x-DfpcfA7M.jpg 2x"
+        />
+      </a>
+
+      <button class="burger-menu" aria-label="Open menu" data-action="open">
+        <svg class="burger-menu-icon" width="40" height="40">
+          <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <ul class="nav-list">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" data-nav>Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#about" data-nav>About the game</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#play" data-nav>How to play</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#features" data-nav>Features</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#reviews" data-nav>Reviews</a>
+  </li>
+  <li class="nav-item"><a class="nav-link" href="#faq" data-nav>Faq</a></li>
+</ul>
+    </nav>
+    <div class="modal" data-visible="close">
+  <button class="close-button" aria-label="Close menu" data-action="close">
+    <svg class="close-button-icon" width="40" height="40">
+      <use href="/stp-9258/assets/sprite-DucQ42zJ.svg?v=2#icon-close"></use>
+    </svg>
+  </button>
+  <ul class="nav-list">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" data-nav>Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#about" data-nav>About the game</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#play" data-nav>How to play</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#features" data-nav>Features</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#reviews" data-nav>Reviews</a>
+  </li>
+  <li class="nav-item"><a class="nav-link" href="#faq" data-nav>Faq</a></li>
+</ul>
+</div>
+
   </div>
 </header>
+
     
 
     <main>
       <!-- Loads the specified .html file -->
       
-      <section class="section">
-  <div class="container container-about">
+      <section id="about" class="section">
+  <div class="container">
     <h2 class="title visually-hidden">About the Game</h2>
-    <div class="about-descsription-wrapper">
-      <p class="game-description-intro">
-        Welcome to Puzzle Twist Game, where logic meets motion and every level
-        spins your mind in a new direction!
-      </p>
-      <p class="game-description-details">
-        Slide, rotate, and strategically match tiles to solve increasingly complex
-        puzzles. With rotating mechanics, shifting boards, and unexpected
-        patterns, this isn&rsquo;t your typical puzzle game — it&rsquo;s a challenge for
-        thinkers, planners, and quick decision-makers.
-      </p>
+    <div class="container-about">
+      <div class="bg-img-about"></div>
+      <div class="about-descsription-wrapper">
+        <p class="game-description-intro">
+          Welcome to Puzzle Twist Game, where logic meets motion and every level
+          spins your mind in a new direction!
+        </p>
+        <p class="game-description-details">
+          Slide, rotate, and strategically match tiles to solve increasingly
+          complex puzzles. With rotating mechanics, shifting boards, and
+          unexpected patterns, this isn&rsquo;t your typical puzzle game —
+          it&rsquo;s a challenge for thinkers, planners, and quick
+          decision-makers.
+        </p>
+      </div>
     </div>
-    <div class="bg-img-about"></div>
   </div>
 </section>
 <section class="section section-core-advantages">
@@ -134,7 +171,7 @@
 </section>
 
 
-      <section class="section">
+      <section id="play" class="section">
   <div class="container instruction-container">
     <h2 class="instruction-title">How to Play</h2>
     <ul class="instruction-list">
@@ -193,7 +230,7 @@
   </div>
 </section>
 
-      <section class="section">
+      <section id="reviews" class="section">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
     <div class="swiper">
@@ -208,27 +245,27 @@
               <ul class="reviewer-rating-list">
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
               </ul>
@@ -247,27 +284,27 @@
               <ul class="reviewer-rating-list">
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
               </ul>
@@ -285,22 +322,22 @@
               <ul class="reviewer-rating-list">
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
               </ul>
@@ -319,22 +356,22 @@
               <ul class="reviewer-rating-list">
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
               </ul>
@@ -353,22 +390,22 @@
               <ul class="reviewer-rating-list">
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
                 <li>
                   <svg width="20" height="20">
-                    <use href="/stp-9258/assets/sprite-DJ_olvh8.svg#icon-star"></use>
+                    <use href="/stp-9258/assets/sprite-DucQ42zJ.svg#icon-star"></use>
                   </svg>
                 </li>
               </ul>
@@ -382,7 +419,7 @@
   </div>
 </section>
 
-      <section class="section">
+      <section id="faq" class="section">
   <div class="container faq-container">
     <h2 class="faq-title">Frequently Asked Questions</h2>
 
@@ -393,7 +430,7 @@
           <button class="accordion-header" data-accordion-button>
             Is Puzzle Twist Game free to play?
             <svg class="accordion-icon" width="32" height="32" data-accordion-icon>
-              <use href="/stp-9258/assets/sprite-DJ_olvh8.svg?v=2#arrow"></use>
+              <use href="/stp-9258/assets/sprite-DucQ42zJ.svg?v=2#arrow"></use>
             </svg>
           </button>
           <div class="accordion-content" data-visible="hidden">
@@ -405,7 +442,7 @@
           <button class="accordion-header" data-accordion-button>
             Does it work offline?
             <svg class="accordion-icon" width="32" height="32" data-accordion-icon>
-              <use href="/stp-9258/assets/sprite-DJ_olvh8.svg?v=2#arrow"></use>
+              <use href="/stp-9258/assets/sprite-DucQ42zJ.svg?v=2#arrow"></use>
             </svg>
           </button>
           <div class="accordion-content" data-visible="hidden">
@@ -417,7 +454,7 @@
           <button class="accordion-header" data-accordion-button>
             Are the puzzles timed?
             <svg class="accordion-icon" width="32" height="32" data-accordion-icon>
-              <use href="/stp-9258/assets/sprite-DJ_olvh8.svg?v=2#arrow"></use>
+              <use href="/stp-9258/assets/sprite-DucQ42zJ.svg?v=2#arrow"></use>
             </svg>
           </button>
           <div class="accordion-content" data-visible="hidden">
@@ -430,7 +467,7 @@
           <button class="accordion-header" data-accordion-button>
             Can I skip levels or undo moves?
             <svg class="accordion-icon" width="32" height="32" data-accordion-icon>
-              <use href="/stp-9258/assets/sprite-DJ_olvh8.svg?v=2#arrow"></use>
+              <use href="/stp-9258/assets/sprite-DucQ42zJ.svg?v=2#arrow"></use>
             </svg>
           </button>
           <div class="accordion-content" data-visible="hidden">
@@ -442,7 +479,7 @@
           <button class="accordion-header" data-accordion-button>
             Are new puzzle worlds coming?
             <svg class="accordion-icon" width="32" height="32" data-accordion-icon>
-              <use href="/stp-9258/assets/sprite-DJ_olvh8.svg?v=2#arrow"></use>
+              <use href="/stp-9258/assets/sprite-DucQ42zJ.svg?v=2#arrow"></use>
             </svg>
           </button>
           <div class="accordion-content" data-visible="hidden">
