@@ -1,0 +1,31 @@
+.header-policy {
+  padding: 20px 0;
+  border-bottom: 1px solid #3342ae;
+  position: fixed;
+  background-color: #f1e8f6;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-home {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-home-icon {
+  fill: none;
+  stroke: #3342ae;
+  transform: rotate(90deg);
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-home {
+    gap: 33px;
+  }
+}

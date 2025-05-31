@@ -14,7 +14,7 @@
 @import url('./header.css');
 @import url('./footer.css');
 @import url('./about.css');
-@import url('./cookeis-policy.css');
+@import url('./policy.css');
 @import url('./core-advantages.css');
 @import url('./faq.css');
 @import url('./game-atmosphere.css');
@@ -25,7 +25,5 @@
 @import url('./instructions.css');
 @import url('./modal-menu.css');
 @import url('./modal-policies.css');
-@import url('./privacy-policy.css');
 @import url('./reviews.css');
-@import url('./terms-conditions.css');
 @import url('./button.css');

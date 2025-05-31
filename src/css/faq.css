@@ -44,7 +44,7 @@
 }
 
 .accordion-header {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-main);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,6 +116,7 @@
 
   .accordion-content {
     padding: 0 115px 0 0;
+    width: 100%;
   }
 }
 
