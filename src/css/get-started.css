@@ -1,13 +1,26 @@
+.get-started-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.get-started-text {
+  text-align: center;
+  font-weight: 600;
+
+  width: 266px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
 .get-started-img {
   border-radius: 8px;
   width: 84px;
   height: 147px;
 }
 .mySwiper {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   overflow: hidden;
-  width: 100%;
+  width: 288px;
 }
 
 .swiper-slide {
@@ -18,4 +31,26 @@
 .swiper-slide-active {
   transform: scale(1.35);
   filter: blur(0);
+}
+
+@media screen and (min-width: 1200px) {
+  .mySwiper {
+    width: 408px;
+    margin-top: 40px;
+  }
+
+  .get-started-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .get-started-img {
+    width: 114px;
+    height: 200px;
+  }
+
+  .get-started-title {
+    margin-bottom: 10px;
+  }
 }
