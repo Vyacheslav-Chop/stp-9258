@@ -1,0 +1,33 @@
+.game-words-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.game-words-swiper {
+  overflow: hidden;
+  position: relative;
+}
+.swiper-slide {
+  width: 150px;
+}
+section .game-words-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-words-img {
+  width: 100px;
+  height: 100px;
+  margin: 24px;
+}
+
+.game-words-block-title {
+  margin-bottom: 16px;
+}
+
+.game-words-block-text {
+  width: 150px;
+  height: 76px;
+  text-align: center;
+}
