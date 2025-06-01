@@ -1,10 +1,12 @@
 .header {
   padding: 20px 0;
   border-bottom: 1px solid #3342ae;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #f1e8f6;
+  z-index: 20000;
 }
 
 .header-container {
