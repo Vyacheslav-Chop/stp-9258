@@ -27,7 +27,7 @@
     <script type="module" crossorigin src="/stp-9258/index.js"></script>
     <link rel="modulepreload" crossorigin href="/stp-9258/assets/vendor-JLaRIylK.js">
     <link rel="stylesheet" crossorigin href="/stp-9258/assets/vendor-BmfOlefE.css">
-    <link rel="stylesheet" crossorigin href="/stp-9258/assets/styles-C4rO8M-v.css">
+    <link rel="stylesheet" crossorigin href="/stp-9258/assets/styles-D9eHWZKh.css">
   </head>
   <body>
     <header class="header">
@@ -68,7 +68,14 @@
   <li class="nav-item"><a class="nav-link" href="#faq" data-nav>Faq</a></li>
 </ul>
     </nav>
-    <div class="modal" data-visible="close">
+    <div
+  class="modal"
+  data-visible="close"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modal-title"
+>
+  <h2 id="modal-title" class="visually-hidden">Navigation menu</h2>
   <button class="close-button" aria-label="Close menu" data-action="close">
     <svg class="close-button-icon" width="40" height="40">
       <use href="/stp-9258/assets/sprite-DucQ42zJ.svg?v=2#icon-close"></use>
@@ -603,6 +610,31 @@
     <div class="mobile-img-footer-bottom"></div>
   </div>
 </footer>
+
+    <div
+  class="backdrop"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modal-title"
+  aria-describedby="modal-description"
+  data-modal="hidden"
+>
+  <div class="container">
+    <div class="modal-policy">
+      <div class="text-wrap">
+        <h2 class="modal-policy-title" id="modal-title">Cookies Policy</h2>
+        <p class="modal-policy-text" id="modal-description">
+          We use cookies to improve your experience on our website. By browsing
+          this website, you agree to our use of cookies.
+        </p>
+      </div>
+      <div class="btn-wrap" data-buttons>
+        <button class="accept-btn" data-cooky-button="accept">Accept cookies</button>
+        <button class="decline-btn" data-cooky-button="dicline">Decline cookies</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   </body>
