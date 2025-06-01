@@ -26,12 +26,12 @@
 }
 .burger-menu-icon {
   fill: #000000;
-  transition: stroke 0.3s ease, transform 0.3s ease;
+  transition: fill 0.3s ease, transform 0.3s ease;
 }
 
 .burger-menu-icon:hover,
 .burger-menu-icon:focus {
-  stroke: #000000;
+  fill: #3342ae;
   transform: scale(1.05);
 }
 

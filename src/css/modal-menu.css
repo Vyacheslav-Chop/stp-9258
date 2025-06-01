@@ -13,13 +13,13 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-[data-visible="close"] {
+[data-visible='close'] {
   opacity: 0;
   pointer-events: none;
   transform: translateX(100%);
 }
 
-[data-visible="open"] {
+[data-visible='open'] {
   opacity: 1;
   pointer-events: auto;
   transform: translateX(0);
@@ -41,6 +41,7 @@
 
 .close-button-icon:hover,
 .close-button-icon:focus {
+  stroke: #3342ae;
   transform: scale(1.05);
 }
 

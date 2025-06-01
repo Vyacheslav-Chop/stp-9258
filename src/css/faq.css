@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+  min-height: 310px;
 }
 
 .accordion-bg {
@@ -81,6 +82,7 @@
 }
 
 [data-visible='shown'] {
+  max-height: 38px;
   padding-top: 6px;
   opacity: 1;
   transform: translateY(0);
