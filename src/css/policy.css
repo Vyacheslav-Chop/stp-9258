@@ -47,6 +47,13 @@
 .link-policy {
   font-size: 14px;
   line-height: 2.57;
+  color: #0427a6;
+  transition: font-weight 0.3s ease;
+}
+
+.link-policy:hover,
+.link-policy:focus {
+  font-weight: 800;
 }
 
 @media screen and (min-width: 1200px) {

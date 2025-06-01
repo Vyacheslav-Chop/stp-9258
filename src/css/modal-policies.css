@@ -53,38 +53,44 @@
   gap: 16px;
 }
 
-.accept-btn {
+.policy-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
   padding: 16px 24px;
-  background-color: rgba(51, 66, 174, 0.75);
-  border: none;
   width: 100%;
   font-family: var(--font-main);
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
   text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3ss ease, border 0.3s ease;
+}
+
+.accept-btn {
+  background-color: rgba(51, 66, 174, 0.75);
+  border: none;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.accept-btn:hover,
+.accept-btn:focus {
+  background-color: #7118a3;
 }
 
 .decline-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 2px solid #3342ae;
-  border-radius: 8px;
-  padding: 16px 24px;
-  background-color: transparent;
-  width: 100%;
-  font-family: var(--font-main);
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  text-transform: uppercase;
   color: #000000;
+  background-color: transparent;
+  transition: color 0.3ss ease, border 0.3s ease;
+}
+
+.decline-btn:hover,
+.decline-btn:focus {
+  border: 2px solid #7118a3;
+  color: #7118a3;
 }
 
 @media screen and (min-width: 1200px) {
