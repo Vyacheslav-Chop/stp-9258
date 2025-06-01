@@ -22,9 +22,10 @@ body {
   font-family: var(--font-main);
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
 }
 
 main {
@@ -55,3 +56,4 @@ h3 {
   opacity: 0;
   z-index: -1;
 }
+
