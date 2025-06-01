@@ -21,7 +21,7 @@ buttonsWrap.addEventListener('click', ev => {
   closeModal();
 });
 
-function closeModal() {
+export function closeModal() {
   backdropModal.dataset.modal = 'hidden';
   document.body.style.overflow = '';
   document.body.style.pointerEvents = 'auto';
