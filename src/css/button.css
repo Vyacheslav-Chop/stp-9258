@@ -1,34 +1,36 @@
-.button {
+.link-button {
   display: flex;
   justify-content: center;
   gap: 24px;
   align-items: center;
   border: 1px solid #3342ae;
   border-radius: 12px;
-  padding: 8px 16px;
-  width: 285px;
-  height: 60px;
+  padding: 8px;
+  width: 100%;
   background: rgba(229, 227, 238, 0.84);
-  margin: 0 auto;
+  transition: background-color 0.3s ease;
 }
 
-.google-play-logo {
-  width: 30px;
-  height: 30px;
+.link-button:hover {
+  background-color: #c6a3da;
 }
 
-.button:hover {
-  background: #c6a3da;
+.link-inner {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
 
 .button-title {
-  font-weight: 400;
   font-size: 14px;
-  color: #220731;
 }
 
 .button-subtitle {
   font-weight: 500;
-  font-size: 16px;
-  color: #220731;
+}
+
+@media screen and (min-width: 1200px) {
+  .link-button {
+    width: 200px;
+  }
 }

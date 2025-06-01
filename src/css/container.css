@@ -1,4 +1,3 @@
-/* Styles for Mobile devices */
 .container {
   width: 320px;
   margin: 0 auto;
@@ -10,7 +9,6 @@
   scroll-margin-top: 80px;
 }
 
-/* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
   .container {
     width: 1200px;
