@@ -44,15 +44,17 @@ section .game-words-wrap {
   .game-words-title {
     margin-bottom: 48px;
   }
-
-section .swiper-pagination-bullet {
-  width: 16px;
-  height: 16px;
-  background-color: rgba(95, 45, 122, 0.2);
-  border-radius: 100%;
-  transition: background-color 0.3s ease;
 }
 
-section .swiper-pagination-bullet-active {
-  background-color: rgba(95, 45, 122, 0.6);
-}
+  section .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background-color: rgba(95, 45, 122, 0.2);
+    border-radius: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  section .swiper-pagination-bullet-active {
+    background-color: rgba(95, 45, 122, 0.6);
+  }
+
