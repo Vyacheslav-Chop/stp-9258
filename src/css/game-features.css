@@ -1,12 +1,13 @@
 .game-features-title {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .game-features-container {
   border: 1px solid #3342ae;
   border-radius: 8px;
-  padding: 24px 29px;
+  padding: 48px 29px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,4 +43,27 @@ section .swiper-slide {
   line-height: 150%;
   text-align: center;
   color: #241f1f;
+}
+
+/* SWIPER CUSTOM */
+
+section .game-features-container .swiper-pagination .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(95, 45, 122, 0.2);
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+}
+
+section
+  .game-features-container
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: rgba(95, 45, 122, 0.6);
+}
+
+@media screen and (min-width: 1200px) {
+  .game-features-title {
+    margin-bottom: 48px;
+  }
 }

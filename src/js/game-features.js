@@ -25,8 +25,8 @@ new Swiper('.game-features-swiper', {
       allowTouchMove: true,
     },
     1200: {
-      slidesPerView: 7,
-      allowTouchMove: false,
+      slidesPerView: 4,
+      allowTouchMove: true,
     },
   },
 });
