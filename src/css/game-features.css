@@ -1,0 +1,69 @@
+.game-features-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.game-features-container {
+  border: 1px solid #3342ae;
+  border-radius: 8px;
+  padding: 48px 29px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game-features-item-image {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 24px;
+}
+section .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.game-features-swiper {
+  overflow: hidden;
+  position: relative;
+}
+
+.game-features-item-title {
+  font-size: 16px;
+  text-align: center;
+  color: #241f1f;
+  margin-bottom: 14px;
+}
+.game-features-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #241f1f;
+}
+
+/* SWIPER CUSTOM */
+
+section .game-features-container .swiper-pagination .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(95, 45, 122, 0.2);
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+}
+
+section
+  .game-features-container
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: rgba(95, 45, 122, 0.6);
+}
+
+@media screen and (min-width: 1200px) {
+  .game-features-title {
+    margin-bottom: 48px;
+  }
+}
