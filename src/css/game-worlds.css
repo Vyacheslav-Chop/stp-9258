@@ -23,6 +23,12 @@ section .game-words-wrap {
   margin: 24px;
 }
 
+.img-2 {
+  width: 140px;
+  height: 140px;
+  margin: 5px;
+}
+
 .game-words-block-title {
   margin-bottom: 16px;
 }
@@ -33,8 +39,20 @@ section .game-words-wrap {
   text-align: center;
 }
 
+
 @media screen and (min-width: 1200px) {
   .game-words-title {
     margin-bottom: 48px;
   }
+
+section .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(95, 45, 122, 0.2);
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+}
+
+section .swiper-pagination-bullet-active {
+  background-color: rgba(95, 45, 122, 0.6);
 }

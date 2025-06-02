@@ -56,4 +56,8 @@
   .get-started-title {
     margin-bottom: 48px;
   }
+
+  .get-started-text {
+    text-align: left;
+  }
 }
