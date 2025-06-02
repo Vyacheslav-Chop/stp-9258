@@ -1,0 +1,45 @@
+.game-features-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.game-features-container {
+  border: 1px solid #3342ae;
+  border-radius: 8px;
+  padding: 24px 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game-features-item-image {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 24px;
+}
+section .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.game-features-swiper {
+  overflow: hidden;
+  position: relative;
+}
+
+.game-features-item-title {
+  font-size: 16px;
+  text-align: center;
+  color: #241f1f;
+  margin-bottom: 14px;
+}
+.game-features-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #241f1f;
+}

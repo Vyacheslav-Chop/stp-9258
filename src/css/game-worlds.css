@@ -22,6 +22,12 @@ section .game-words-wrap {
   margin: 24px;
 }
 
+.img-2 {
+  width: 140px;
+  height: 140px;
+  margin: 5px;
+}
+
 .game-words-block-title {
   margin-bottom: 16px;
 }
