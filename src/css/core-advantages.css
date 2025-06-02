@@ -27,8 +27,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .title {
-    margin-bottom: 60px;
+  .core-advantages-title {
+    margin-bottom: 48px;
   }
 
   .core-advantages-list {
