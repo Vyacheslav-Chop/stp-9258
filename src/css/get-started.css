@@ -53,4 +53,8 @@
   .get-started-title {
     margin-bottom: 10px;
   }
+
+  .get-started-text {
+    text-align: left;
+  }
 }
