@@ -1,9 +1,7 @@
 import Swiper from 'swiper';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 let featuresSwiper;
 
@@ -11,7 +9,7 @@ const screenWidthQuery = window.matchMedia('(max-width: 1199.98px)');
 
 function initFeaturesSwiper() {
   if (screenWidthQuery.matches && !featuresSwiper) {
-    featuresSwiper = new Swiper('.game-features-swiper', {
+    featuresSwiper = new Swiper('#game-features-swiper', {
       modules: [Pagination, Autoplay],
       slidesPerView: 1,
       spaceBetween: 20,

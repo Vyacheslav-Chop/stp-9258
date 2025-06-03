@@ -69,6 +69,12 @@ section
   .game-features-swiper .swiper-wrapper .swiper-slide {
     width: calc(32% - 10px);
   }
+  /* .game-features-swiper .swiper-wrapper .swiper-slide:nth-child(1) {
+    margin-left: 20px;
+  }
+  .game-features-swiper .swiper-wrapper .swiper-slide:nth-child(3) {
+    margin-right: 20px;
+  } */
   .game-features-swiper
     .swiper-wrapper
     .swiper-slide:nth-child(n + 4):nth-child(-n + 7) {

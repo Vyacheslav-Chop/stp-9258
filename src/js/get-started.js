@@ -1,20 +1,13 @@
 import Swiper from 'swiper';
 
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  Autoplay,
-} from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import 'swiper/css/effect-coverflow';
 
-Swiper.use([Navigation, Pagination, Scrollbar, Autoplay]);
+Swiper.use([Pagination, Autoplay]);
 
-const swiper = new Swiper('.mySwiper', {
+const swiper = new Swiper('#mySwiper', {
   modules: [Pagination, Autoplay],
   effect: 'coverflow',
   grabCursor: true,
