@@ -33,7 +33,9 @@
   gap: 4px;
 }
 
-/* SWIPER */
+.section .container .swiper .swiper-pagination {
+  bottom: 0px;
+}
 
 .swiper-slide {
   padding-bottom: 40px;
