@@ -1,0 +1,37 @@
+h1 {
+  font-family: var(--font-helpers);
+  font-weight: 700;
+}
+
+h2 {
+  font-family: var(--font-helpers);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    margin-bottom: 48px;
+  }
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: none;
+  overflow: hidden;
+  opacity: 0;
+  z-index: -1;
+}
