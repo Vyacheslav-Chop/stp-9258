@@ -1,15 +1,12 @@
-.game-words-title {
-  text-align: center;
-  font-size: 20px;
-  margin-bottom: 30px;
-}
 .game-words-swiper {
   overflow: hidden;
   position: relative;
 }
+
 .swiper-slide {
   width: 150px;
 }
+
 section .game-words-wrap {
   display: flex;
   flex-direction: column;
@@ -39,22 +36,20 @@ section .game-words-wrap {
   text-align: center;
 }
 
-
-@media screen and (min-width: 1200px) {
-  .game-words-title {
-    margin-bottom: 48px;
-  }
+section .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(95, 45, 122, 0.2);
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
 }
 
-  section .swiper-pagination-bullet {
-    width: 16px;
-    height: 16px;
-    background-color: rgba(95, 45, 122, 0.2);
-    border-radius: 100%;
-    transition: background-color 0.3s ease;
-  }
+section .swiper-pagination-bullet-active {
+  background-color: rgba(95, 45, 122, 0.6);
+}
 
-  section .swiper-pagination-bullet-active {
-    background-color: rgba(95, 45, 122, 0.6);
+@media screen and (min-width: 1200px) {
+  .section-game-worlds {
+    padding-bottom: 0;
   }
-
+}

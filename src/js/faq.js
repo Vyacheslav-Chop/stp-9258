@@ -9,6 +9,7 @@ accordionButtons.forEach(button =>
     const isVisible = content.dataset.visible === 'shown';
 
     if (isVisible) {
+      button.closest('[data-accordion-button]').blur();
       content.dataset.visible = 'hidden';
       icon.removeAttribute('data-icon');
       return;
