@@ -3,7 +3,7 @@
 }
 
 .hero-container {
-  background-image: url('/img/hero/hero_img_mob.jpg');
+  background-image: url('/img/hero/hero_bg_mob.avif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
   .hero-container {
-    background-image: url('/img/hero/hero_img_mob_x2.jpg');
+    background-image: url('/img/hero/hero_bg_mob@2x.avif');
   }
 }
 
@@ -102,7 +102,7 @@
 
 @media screen and (min-width: 1200px) {
   .hero-container {
-    background-image: url('/img/hero/hero_img_desc.jpg');
+    background-image: url('/img/hero/hero_bg_desc.avif');
     padding-top: 128px;
     padding-bottom: 60px;
   }
@@ -145,6 +145,6 @@
 
 @media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
   .hero-container {
-    background-image: url('/img/hero/hero_img_desc_x2.jpg');
+    background-image: url('/img/hero/hero_bg_desc@2x.avif');
   }
 }
