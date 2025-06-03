@@ -1,13 +1,11 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination, Scrollbar, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
-Swiper.use([Navigation, Pagination, Scrollbar, Autoplay]);
+Swiper.use([Pagination, Autoplay]);
 
-new Swiper('.swiper', {
+new Swiper('#reviews-swiper', {
   modules: [Pagination, Autoplay],
   slidesPerView: 1,
   spaceBetween: 20,
