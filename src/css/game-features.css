@@ -58,3 +58,21 @@ section
   background-color: rgba(95, 45, 122, 0.6);
 }
 
+@media screen and (min-width: 1200px) {
+  .game-features-swiper {
+    overflow: visible;
+  }
+  .game-features-swiper .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .game-features-swiper .swiper-wrapper .swiper-slide {
+    width: calc(32% - 10px);
+  }
+  .game-features-swiper
+    .swiper-wrapper
+    .swiper-slide:nth-child(n + 4):nth-child(-n + 7) {
+    width: calc(25% - 10px);
+    padding-bottom: 0;
+  }
+}
