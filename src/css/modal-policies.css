@@ -65,7 +65,7 @@
   font-size: 16px;
   line-height: 1.5;
   text-transform: uppercase;
-  transition: background-color 0.3s ease, color 0.3ss ease, border 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 .accept-btn {
@@ -84,7 +84,7 @@
   border: 2px solid #3342ae;
   color: #000000;
   background-color: transparent;
-  transition: color 0.3ss ease, border 0.3s ease;
+  transition: color 0.3s ease, border 0.3s ease;
 }
 
 .decline-btn:hover,
