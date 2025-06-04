@@ -1,7 +1,6 @@
 .get-started-text {
   text-align: center;
   font-weight: 600;
-
   width: 266px;
   margin: 0 auto;
   margin-bottom: 24px;
@@ -17,25 +16,16 @@
   padding-top: 40px;
   padding-bottom: 40px;
   overflow: hidden;
-  width: 288px;
+  width: 100%;
 }
 
-.swiper-slide {
+.mySwiper .swiper-slide {
   transition: transform 0.3s ease;
-  margin-right: 0px;
-  will-change: transform;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
 }
 
-.swiper-slide-active {
-  transform: scale(1.35) translateZ(0);
-  -webkit-transform: scale(1.35) translateZ(0);
+.mySwiper .swiper-slide-active .get-started-img {
+  transform: scale(1.3);
   z-index: 10;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
 }
 
 @media screen and (min-width: 1200px) {

@@ -11,6 +11,7 @@ const swiper = new Swiper('#mySwiper', {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 3,
+  zoom: true,
   keyboard: {
     enabled: true,
   },
@@ -20,6 +21,13 @@ const swiper = new Swiper('#mySwiper', {
   },
   mousewheel: {
     thresholdDelta: 70,
+  },
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 2,
+    slideShadows: true,
   },
   spaceBetween: 0,
   loop: true,
