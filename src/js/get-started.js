@@ -7,7 +7,7 @@ import 'swiper/css/effect-coverflow';
 
 const swiper = new Swiper('#mySwiper', {
   modules: [Pagination, Autoplay],
-  grabCursor: true,
+  grabCursor: false,
   centeredSlides: true,
   slidesPerView: 3,
   keyboard: {
@@ -17,11 +17,15 @@ const swiper = new Swiper('#mySwiper', {
     delay: 4000,
     disableOnInteraction: false,
   },
+  simulateTouch: false,
+  allowTouchMove: false,
+  mousewheel: false,
   mousewheel: {
-    thresholdDelta: 50,
+    thresholdDelta: 70,
   },
   spaceBetween: 0,
   loop: true,
+
   breakpoints: {
     1200: {
       spaceBetween: 30,
