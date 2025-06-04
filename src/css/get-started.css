@@ -16,11 +16,11 @@
   padding-top: 40px;
   padding-bottom: 40px;
   overflow: hidden;
-  width: 100%;
+  width: 288px;
 }
 
 .mySwiper .swiper-slide {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease-in-out;
 }
 
 .mySwiper .swiper-slide-active .get-started-img {
