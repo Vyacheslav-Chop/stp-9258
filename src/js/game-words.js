@@ -3,8 +3,6 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-Swiper.use([Pagination, Autoplay]);
-
 new Swiper('#game-words-swiper', {
   modules: [Pagination, Autoplay],
   slidesPerView: 1,
