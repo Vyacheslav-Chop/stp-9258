@@ -28,6 +28,11 @@ const swiper = new Swiper('#mySwiper', {
   mousewheel: {
     thresholdDelta: 70,
   },
-  spaceBetween: 30,
+  spaceBetween: 0,
   loop: true,
+  breakpoints: {
+    1200: {
+      spaceBetween: 30,
+    },
+  },
 });
